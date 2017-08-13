@@ -1,0 +1,428 @@
+html,
+body {
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+  margin: 0;
+  width: 100%;
+
+}
+
+
+header {
+  display: inline-flex;
+  margin: 0;
+  font-family: "Helvetica" sans-serif;
+  background-color: black;
+  height: 2.5rem;
+  width: auto;
+  align-items: flex-start;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  }
+
+  #logo {
+
+  padding-top: 0.4rem;
+  background-color: black;
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  color: white;
+  margin-left: 5rem;
+
+
+}
+
+header h6 {
+  display: inline;
+  background-color: black;
+  color: white;
+  font-family: "Helvetica" sans-serif;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+
+}
+
+.main {
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Helvetica" sans-serif;
+
+}
+
+.moto {
+
+  display: block;
+  padding-top: 9rem;
+  background-image: url("../images/moto.jpeg");
+  width: 100%;
+  height: 25rem;
+  background-size: cover;
+
+}
+
+.moto1 {
+
+  background-color: black;
+  width: 20rem;
+  height: auto;
+  font-family: "Helvetica" sans-serif;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1.75rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 7rem;
+  align-items: stretch;
+
+
+}
+
+.moto1 h1 {
+
+  font-size: 2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.moto1 h3 {
+
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+.main nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  background-color: firebrick;
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: "Helvetica" sans-serif;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+}
+
+nav span {
+  display: inline;
+
+}
+
+nav#other {
+  display: none;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  margin-left: 7rem;
+  margin-right: 7rem;
+
+
+  }
+
+.pen,
+.watch,
+.glasses {
+  display: block;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border: 4px solid black;
+  width: 30%;
+  height: 13rem;
+  text-align: center;
+  margin-top: 3rem;
+
+
+}
+
+
+.pen img {
+  height: 9rem;
+  width: 9rem;
+  background-color: white;
+  padding: 2rem;
+ }
+
+.watch img {
+  height: 9rem;
+  width: 9rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.glasses img {
+  height: 9rem;
+  width: 9rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+.tex {
+  background-color: black;
+  color: white;
+  height: 2rem;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  }
+
+
+.info {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+}
+
+.loc {
+  display: inline;
+  width: 35%;
+  height: 2.3rem;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+  margin-bottom: 2rem;
+
+}
+
+.hour {
+  display: inline;
+  width: 35%;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+}
+
+.loc span {
+  display: block;
+  margin-top: 2.5rem;
+  font-size: 18px;
+  color: black;
+
+}
+
+.hour span {
+  display: block;
+  margin-top: 2.5rem;
+  font-size: 18px;
+  color: black;
+
+}
+
+footer {
+  display: block;
+  margin-top: 4rem;
+  height: 5rem;
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+  padding: 2rem 7rem;
+  background-color: black;
+
+}
+
+footer p {
+  text-align: left;
+  color: white;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18px;
+  padding: 2rem 7rem;
+  background-color: black;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    width: 100%;
+  }
+
+  .moto1 {
+    margin-left: 0;
+
+  }
+
+  nav#other {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: firebrick;
+    color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-family: "Helvetica" sans-serif;
+    text-align: center;
+
+    }
+
+    .main nav {
+      display: none;
+    }
+
+    .gallery {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .pen {
+    width: 47%;
+  }
+
+  .watch {
+    width: 47%;
+  }
+
+  .info {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 470px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+ #logo {
+  margin-left: 1rem;
+ }
+
+  .main {
+    width: 100%;
+  }
+
+  .moto {
+    height: 15rem;
+    width: 100%;
+  }
+
+  .moto1 {
+    height: 4.5rem;
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    padding: 1rem 0;
+   }
+
+   .moto1 h1 {
+     display: inline;
+     font-size: 1rem;
+     padding-top: 0.25rem;
+     padding-left: 2rem;
+     padding-bottom: 1rem;
+     font-weight: bold;
+     font-family: "Helvetica" sans-serif;
+   }
+
+   .moto1 h3 {
+     display: block;
+     margin-top: 1rem;
+     font-size: 0.77rem;
+     font-weight: bold;
+     font-family: "Helvetica" sans-serif;
+     padding-left: 2rem;
+     padding-bottom: 0.5rem;
+   }
+
+  nav#other {
+    margin-top: 1rem;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .pen {
+    width: 90%;
+
+  }
+
+  .watch {
+    display: none;
+
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .loc {
+
+    width: 90%;
+
+
+  }
+
+  .loc span {
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .hour {
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  footer {
+    display: inline;
+    font-size: 16px;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  footer p {
+    padding: 2rem;
+  }
+
+}
